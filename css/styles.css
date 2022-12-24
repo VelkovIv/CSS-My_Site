@@ -6,18 +6,21 @@ body{
 
 h1{
     font-size: 5.625rem;
-    margin-top: 50px;
+    margin-top: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
-
+    color: #66BFBF;
 }
 
 h2{
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
 }
 
 h3{
     font-family: 'Montserrat', sans-serif;
+    color: #11999E;
 }
 
 .top-container{
@@ -28,13 +31,13 @@ h3{
 
 }
 
-.middle-container{
+/* .middle-container{
 
 }
 
 .bottom-container{
 
-}
+} */
 
 .pro{
     text-decoration: underline;
@@ -42,12 +45,37 @@ h3{
 
 .top-cloud{
     position: absolute;
-    right: 600px;
+    right: 550px;
     top: 50px;
 }
 
 .bottom-cloud{
     position: absolute;
-    left: 600px;
+    left: 550px;
     bottom: 300px;
+}
+
+.footer-link{
+    color: #11999E;
+}
+
+
+.skill-row{
+    margin: 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+
+}
+
+.skill-img{
+    width: 20%;
+    float: left;
+    padding-right: 30px;
+}
+
+.chilli-img{
+    width: 20%;
+    float: right;
+    padding-left: 30px;
 }
