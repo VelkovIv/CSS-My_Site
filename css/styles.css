@@ -45,7 +45,7 @@ a{
     text-decoration: none;
 }
 
-a.hover{
+a:hover{
     color: #EAF6F6;
 }
 
@@ -53,19 +53,15 @@ a.hover{
     background-color: #E4F9F5;
     position: relative;
     padding-top: 100px;
-
-
 }
 
 .middle-container{
     margin-bottom: 100px 0;
-
 }
 
 .bottom-container{
     background-color: #66BFBF;
     padding: 50px 0 20px;
-
 }
 
 .pro{
@@ -89,18 +85,10 @@ a.hover{
     bottom: 300px;
 }
 
-.footer-link{
-    color: #11999E;
-
-}
-
-
 .skill-row{
     margin: 100px auto;
     width: 50%;
     text-align: left;
-
-
 }
 
 .skill-img{
@@ -115,17 +103,17 @@ a.hover{
     padding-left: 30px;
 }
 
-.footer-link{
-    margin-top: 0px;
-    color: #11999E;
-}
-.year-name{
+
+.copyright{
     color: #E4F9F5;
+    font-size: 0.75rem;
+    padding: 50px 0 10px;
 }
 
 .contact-me{
     margin-bottom: 100px;
 }
+
 .btn {
     background: #11cdd4;
     background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
